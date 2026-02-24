@@ -39,8 +39,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Database (no subir datos sensibles)
+# Database (no subir datos sensibles, pero sí los JSON de configuración)
 data/
+!data/*.json
 *.db
 *.sqlite
 
